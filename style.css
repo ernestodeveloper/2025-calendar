@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-gold-scratches-on-a-black-background-image_15685278.jpg');
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Fixed box-shadow */
+    padding: 20px;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.month {
+    margin-bottom: 30px;
+}
+
+.month-name {
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.table {
+    border-collapse: collapse;
+    background-size: cover;
+    width: 100%;
+}
+
+th,
+td,
+tr {
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid;
+}
+
+th {
+    color: white;
+}
+
+td {
+    background-color: white;
+    color: white; /* Changed text color to black for better contrast */
+}
+
+@media (max-width: 767px) {
+    .col-12 {
+        margin-bottom: 20px;
+    }
+}
